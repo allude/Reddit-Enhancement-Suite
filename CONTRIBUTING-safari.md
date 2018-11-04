@@ -23,13 +23,11 @@ To load the extension into your browser, see [Loading RES into your browser](#lo
 
 #### Build commands
 
-**`npm start [<browsers>]`** will clean `dist/`, then build RES (dev mode), and start a watch task that will rebuild RES when you make changes. Only changed files will be rebuilt.
+**`npm start [safari]`** will clean `dist/`, then build RES (dev mode), and start a watch task that will rebuild RES when you make changes. Only changed files will be rebuilt.
 
-**`npm run once [<browsers>]`** will clean `dist/`, then build RES (dev mode) a single time.
+**`npm run once [safari]`** will clean `dist/`, then build RES (dev mode) a single time.
 
-**`npm run build [<browsers>]`** will clean `dist/`, then build RES (release mode). Each build output will be compressed to a .zip file in `dist/zip/`.
-
-`<browsers>` is a comma-separated list of browsers to target, e.g. `chrome,firefox,edge`. `all` will build all targets. By default, `chrome` will be targeted.
+**`npm run build [safari]`** will clean `dist/`, then build RES (release mode). Each build output will be compressed to a .zip file in `dist/zip/`.
 
 #### Lint and test commands
 
